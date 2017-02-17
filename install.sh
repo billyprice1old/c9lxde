@@ -12,7 +12,7 @@ fi
 #force update
 
 sudo apt-get update 
-sudo apt-get install supervisor xvfb fluxbox x11vnc websockify
+sudo apt-get install supervisor xvfb xfce4 shimmer-themes gnome-icon-theme-full -y x11vnc websockify
 
 #Copy supervisord configuration to proper configuration directory
 cp supervisord.conf ${HOME}/.config/supervisord.conf
